@@ -29,3 +29,18 @@
 - ```docker tag akram-sprint akram-staging:v1```
 - ```docker exec -it 7845r41eh99 /bin/bash```
 - ```docker commit 7845r41eh99 akram-staging:latest```
+
+## Dockerfile
+- FROM
+- WORKDIR
+- COPY
+- RUN
+- ENV
+- EXPOSE
+- CMD
+- ENTRYPOINT 
+
+## Docker Hub 
+- ```docker login```
+- ```docker logout```
+
