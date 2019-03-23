@@ -1,7 +1,7 @@
 ## Info  
 ```
-man – помощь
-info – тоже помощь
+man – help 
+info – help too but a lil bit other :-]
 uptime  - время с последнего включения
 lscpu – данные процессора
 whatis – показывает что делает комманда
@@ -13,30 +13,30 @@ Ctrl+C – прекратить процесс вообще
 
 ## Explorer
 ```
-cd  - сменить директорию
+cd   
 ls – вывести содержимое директории
 ls -l  - вывести содержимое директории подробно
-pwd – вывести путь где мы сейчас
-~    - сокращение нашей Home директории
-/    - коренная директория Linux
-..    - директория которая выше 
-.     - директория где мы сейчас
-ls –la –R  /    - показать все на компутере
+pwd - path to current directory
+~    - Home
+/    - root directory of Linux
+..    - directory above
+.     - current directory
+ls –la –R  /    - show all on pc :-]
 
-touch – создать файл или обновить время
-cp  - скопировать файл
-mv – перенести файл или переименовать
-rm – стереть файл
+touch – create file or update time
+cp  - copy file or directory 
+mv – move or rename file or folder
+rm – remove
 
-mkdir – создать директорию
-rmdir – стереть пустую директорию
-cp     - копировать директорию
-mv  - переименовать или перенести директорию
+mkdir – make folder 
+rmdir – remove empty folder
+ 
+ 
 
-ln   - создать дубликат файла 
-ln –s   - создать symbolic линк на файл или директорию типа Shortcut
+ln   - create duplicate of file or folder
+ln –s   - create symbolic link to file or folder, as Shortcut on Windows
 
-find  - найти файл
+find  - find file 
 wc  - вывести количество строк, слов, байт
 cut – вывести определенное поле из текста
 sort – вывести отсортированный текст
