@@ -1,1 +1,1 @@
-# dev-hints
+## A list of general commands divided by technology and uses on an ongoing basis
