@@ -43,4 +43,5 @@
 ## Docker Hub 
 - ```docker login```
 - ```docker logout```
+- ```docker push repository/image:tag```
 
