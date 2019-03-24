@@ -1,106 +1,103 @@
 ## Info  
 ```
-man – help 
-info – help too but a lil bit other :-]
+man     – help 
+info    – help too but a lil bit other :-]
 uptime  - время с последнего включения
-lscpu – данные процессора
-whatis – показывает что делает комманда
+lscpu   – данные процессора
+whatis  – показывает что делает комманда
 whereis – показывает где файл
-locate – показывает где файл
+locate  – показывает где файл
 Ctrl+Z  - отправить процесс на background
-Ctrl+C – прекратить процесс вообще
+Ctrl+C  – прекратить процесс вообще
 ```
 
 ## Explorer
 ```
-cd   
-ls – вывести содержимое директории
+cd     - cd
+ls     – вывести содержимое директории
 ls -l  - вывести содержимое директории подробно
-pwd - path to current directory
-~    - Home
-/    - root directory of Linux
-..    - directory above
-.     - current directory
+pwd    - path to current directory
+~      - /home folder
+/      - root directory of Linux
+..     - directory above
+.      - current directory
 ls –la –R  /    - show all on pc :-]
 
-touch – create file or update time
-cp  - copy file or directory 
-mv – move or rename file or folder
-rm – remove
+touch  – create file or update time
+cp     - copy file or directory 
+mv     – move or rename file or folder
+rm     – remove
+mkdir  – make folder 
+rmdir  – remove empty folder
 
-mkdir – make folder 
-rmdir – remove empty folder
- 
- 
+ln     - create duplicate of file or folder
+ln –s  - create symbolic link to file or folder, as Shortcut on Windows
 
-ln   - create duplicate of file or folder
-ln –s   - create symbolic link to file or folder, as Shortcut on Windows
+find   - find file 
+wc     - show number of rows, words, bytes 
+cut    – show current field from file
+sort   – sorted output
 
-find  - find file 
-wc  - вывести количество строк, слов, байт
-cut – вывести определенное поле из текста
-sort – вывести отсортированный текст
-
-grep  - поиск определонного слова в файле и вывод строк с этим словом
+grep   - filtering 
 
 /dev/null   - устройство находящиеся в ж#$е
 ```
 
 ## ZIP
 ```
-tar cf  mytar.tar  Folder1   - заархивировать Folder1
-tar xf mytar.tar  - разархивировать архив
-gzip     / bzip2     / xz      – скомпрессировать файл
-gunzip /  bunzip2 / unxz  – раскомпресировать файл
+tar cf  mytar.tar  Folder1   - pack Folder1
+tar xf mytar.tar             - unpack
+gzip / bzip2 / xz            – pack  
+gunzip /  bunzip2 / unxz     – unpack
 
-tar cvzf myBZIP2.bz2  Folder1    – сжать Folder1
-tar xvf  myBZIP2.bz2                  - распаковать архив
-tar tf myBZIP2.bz2    - посмотреть что внутри архива
+tar cvzf myBZIP2.bz2  Folder2  – pack Folder2 to myBZIP2.bz2
+tar xvf  myBZIP2.bz2           - unpack myBZIP2.bz2
+tar tf myBZIP2.bz2             - show fiolders and files inside of myBZIP2.bz2 
 
-zip –r myZIP.zip Folder1   - Запаковать Folder1 в ZIP
-unzip myZIP.zip                - Распаковать файл myZIP.zip
+zip –r myZIP.zip Folder3       - pack Folder3 in myZIP.zip
+unzip myZIP.zip                - unpack file myZIP.zip
 ```
 
 ## Processes
 ```
-top – как Task Manager в Windows
-free  - показать состояние памяти в байтах
-free –h  - показать состояние памяти в MB, GB
-ps          -  показать мои процессы 
-ps aux  - показать все процессы от всех пользователей
+top      – like Task Manager in Windows
+free     - show RAM in bytes 
+free –h  - show RAM in MB, GB
+ps       - show processes
+ps aux   - show processes показать все процессы от всех пользователей
 
-ps aux | grep bash  - найти все процессы bash от всех пользователей
+ps aux | grep bash  - find all bash processes
 ```
 
 
 ## User
 ```
-sudo  - запустить комманду используя Super User права
-su   - сменить текушего пользователя
+sudo  - execute command with sudo 
+su    - change user
 
-/etc/passwd    - тут хранятся все аккаунты
-/etc/shadow   - тут хранятся все пароли аккаунтов
-/etc/group    - тут хранятся все группы
+/etc/passwd   - here all users
+/etc/shadow   - here all passwords for all users
+/etc/group    - here all groups
 
-whoami  - показать имя текущего пользователя
-id   - показать к каким группам принадлежит пользователь
-who – показать кто сейчас в системе
-w   - показать кто сейчас в системе и что делает
-last – показать последние логины
+whoami  - show name of curernt user
+id      - show all groups for current user показать к каким группам принадлежит пользователь
+who     – show who is logged on
+w       - who and what doing in system now
+last    – last logged in users
 ```
 
 ## Groups
 ```
-useradd  -m vasya   - создать юзера vasya с домашней  директорией
-userdel –r vasya     - стереть юзера vasya с его домашней  директорией
-/etc/skel    -  это шаблон домашней директории
-passwd vasya   - изменить пароль для юзера vasya
+useradd  -m vasya   - создать юзера vasya с домашней директорией
+userdel –r vasya    - стереть юзера vasya с его домашней директорией
+/etc/skel           - это шаблон домашней директории
+passwd vasya        - изменить пароль для юзера vasya
 
 groupadd QADepartament  - создать группу QADepartament
 groupdel QADepartament  - стереть группу QADepartament
 
 usermod –aG QADepartament vasya  - добавить юзера vasya в группу QADepartament
-deluser vasya QADepartament  - удалить юзера vasya  из групы QADepartament
+deluser vasya QADepartament      - удалить юзера vasya  из групы QADepartament
 ```
 
 
@@ -120,44 +117,44 @@ chmod  o=rw   myfile.txt   установить RW всем остальным
 
 
 chmod  777   myfile.txt   установить RWX всем
-chmod  741   myfile.txt  установить:   RWX   владельцу, R - -    группе,  - - X   всем остальным
+chmod  741   myfile.txt   установить:   RWX   владельцу, R - -    группе,  - - X   всем остальным
 r = 4
 w = 2
 x = 1
 
-chmod  1777 myDir    включить StickyBit
-chmod 0777 myDir    выключить StickyBit
+chmod  1777 myDir    turn on StickyBit
+chmod 0777 myDir     turn of StickyBit
 ```
 
 ## Network
 ```
-ifconfig          - показать мой IP адресс
-ip addr show  - показать мой IP адресс
-
-route      - показать адресс раутера Gateway
-ping        - протестировать коннекшен к адрессу
-host       - дать IP адресс вэб сайта
-dig         - дать IP адресс вэб сайта
-netstat  – выдать сетевые подключения компьютера
+ifconfig      - show IP address of mine
+ip addr show  - show IP address of mine
+ifconfig      - show ip addres and some other network info
+route         - show address of Gateway routee
+ping          - test connection
+host ts.kg    - get IP address of current host
+dig           - get IP address of current host
+netstat       – show connections
 ```
 
 ## Download | Install | Remove
 ```
-wget    - скачать файл из интернета
+wget  - download file to pwd directory 
 
 Ubuntu/Debian/Kali/Mint Linux:
 ~~~~~~~~~~~~~~~~~~~~~
-apt-get install     - скачать и установить программу
-apt-get remove   - удалить программу
-dpkg –i                - установить программу из файла .deb
-dpkg –r                - удалить программу
+apt-get install  - download and install application
+apt-get remove   - uninstall application
+dpkg –i          - install application from .deb file
+dpkg –r          - uninstall application from .deb file
 
 RedHat/CenOS Linux:
 ~~~~~~~~~~~~~~
-yum install          - скачать и установить программу
-yum remove         - удалить программу
-rpm –i                  - установить программу из файла .rpm
-rpm –e                 - удалить программу
+yum install      - download and install application
+yum remove       - uninstall application
+rpm –i           - install application from .rpm file
+rpm –e           - uninstall application from .rpm file
 ```
 
 ## Scripts
@@ -176,14 +173,14 @@ read –p “Please enter your name: “ name
 
 ## Mount Drives
 ```
-/dev/sda    - первый SATA диск
-/dev/sdb    - второй SATA диск
-/dev/sdc    - третий SATA диск
+/dev/sda    - first SATA device
+/dev/sdb    - second SATA device
+/dev/sdc    - third SATA device
 
-fdisk –l    -  показать какие есть диски
-lsblk        -  показать какие есть диски
-cfdisk   /dev/sdb  - редактировать разделы sdb диска
-mkfs.ntfs  –f  /dev/sdb1   - форматировать  раздел первый второго диска
+fdisk -l                    - show devices with data
+lsblk                       - lists information about all or the specified block devices
+cfdisk /dev/sdb             - edit partitions of sdb device
+mkfs.ntfs  –f  /dev/sdb1    - format first partition of  second device
 /etc/fstab   - тут прописываем новые диски чтобы они присоединялись автоматически при загрузки Линукса
 
 mount /media/hdd2   - присоединяет диск прописанный в файле fstab с именем hdd2 без перезагрузки Линукса
@@ -191,32 +188,30 @@ mount /media/hdd2   - присоединяет диск прописанный �
 
 ## Change IP Address
 ```
-hostname    - вывести название компа
-sudo hostname MyLinux   - переименовать в MyLinux
-/etc/hostname   - тут прописано название компа
-/etc/hosts          - тут прописываем новое название напротив IP адресса
-ifconfig   - вывести текущий IP адресс
+hostname               - show hostname  
+sudo hostname MyLinux  - rename pc name to MyLinux
+/etc/hostname          - file that keep hostname 
+/etc/hosts             - change hostname too opposite IP address
 
-Временно меняем IP адресс так:
+Change IP Address for some time:
 sudo  ifconfig  eth0  10.10.10.10  netmask  255.0.0.0
 
-/etc/network/interfaces  - тут прописываем постоянный IP
-sudo ifdown eth0    - отключить сетевуху eth0
-sudo ifup   eth0      - включить сетевуху eth0
+/etc/network/interfaces  - put here you permanent IP Address
+sudo ifdown eth0         - turn of network interface with name - eth0
+sudo ifup   eth0         - turn on network interface with name - eth0
 ```
 
 ## SSH
 ```
-service ssh status   - статус SSH сервиса
-service ssh start   - запустить SSH сервис
-apt-get install openssh-server   - установить SSH
-
-ssh vasya@192.168.10.130   - подключится к компу (192.168.10.130) как пользователь (vasya)
+apt-get install openssh-server
+service ssh status
+service ssh start
+ssh vasya@192.168.10.130   - connect to pc (192.168.10.130) as vasya
 ```
 
 ## Cron
 ```
-crontab - l    - показать расписание
-crontab -e   - редактировать расписание
-/etc/crontab  - файл расписания на системном уровне
+crontab - l  - show schedule
+crontab -e   - edit schedule
+/etc/crontab - main config cron file. list of crones
 ```
