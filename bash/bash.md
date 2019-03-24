@@ -191,7 +191,7 @@ mount /media/hdd2   - присоединяет диск прописанный �
 hostname               - show hostname  
 sudo hostname MyLinux  - rename pc name to MyLinux
 /etc/hostname          - file that keep hostname 
-/etc/hosts             - change hostname too opposite IP address
+/etc/hosts             - file that maps hostnames to IP addresses
 
 Change IP Address for some time:
 sudo  ifconfig  eth0  10.10.10.10  netmask  255.0.0.0
