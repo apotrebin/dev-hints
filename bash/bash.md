@@ -211,7 +211,7 @@ ssh vasya@192.168.10.130   - connect to pc (192.168.10.130) as vasya
 
 ## Cron
 ```
-crontab - l  - show schedule
+crontab -l  - show schedule
 crontab -e   - edit schedule
 /etc/crontab - main config cron file. list of crones
 ```
