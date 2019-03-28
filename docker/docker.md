@@ -41,19 +41,23 @@ docker network ls
 ```
 
 ## Dockerfile
-```
-- FROM
-- WORKDIR
-- COPY
-- RUN
-- ENV
-- EXPOSE
-- CMD
-- ENTRYPOINT 
-```
+INSTRUCTION | DESCRIPTION
+--- | ---
+FROM | This must be the first instruction in the Dockerfile and identifies the image to inherit from.
+MAINTAINER|Provides visibility and credit to the author of the image
+RUN|Executes a Linux command for configuring and installing
+ENTRYPOINT|The final script or application used  to bootstrap the container, making it an executable application
+CMD|Provide default arguments to the ENTRYPOINT using a JSON array format
+LABEL|Name/value metadata about the image
+ENV|Sets environment variables
+COPY|Copies files into the container
+ADD|Alternative to copy
+WORKDIR|Sets working directory for RUN, CMD, ENTRYPOINT, COPY, and/or ADD instructions
+EXPOSE|Ports the container will listen on
+VOLUME|Creates a mount point
+USER|User to run RUN, CMD, and/or ENTRYPOINT instructions
 
-## Docker Hub 
+## Docker Hub
 - ```docker login```
 - ```docker logout```
 - ```docker push repository/image:tag```
-
