@@ -61,3 +61,7 @@ USER|User to run RUN, CMD, and/or ENTRYPOINT instructions
 - ```docker login```
 - ```docker logout```
 - ```docker push repository/image:tag```
+
+Useful links
+* [Getting started with Docker [ENG]](https://dzone.com/refcardz/getting-started-with-docker-1?chapter=1)
+* [Habr - Dockerfile [RU]](https://habr.com/ru/company/infobox/blog/240623/)
