@@ -32,7 +32,9 @@ newgrp docker
  docker build -t akram .
  docker tag akram-sprint akram-staging:v1
  docker exec -it 7845r41eh99 /bin/bash
- docker commit 7845r41eh99 akram-staging:latest
+ docker commit 7845r41eh99 repository:latest
+ docker tag d583c3ac45fd repository/app:latest
+ docker push repository/app:tag
 ```
 
 ## Network
