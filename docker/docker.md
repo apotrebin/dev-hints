@@ -37,6 +37,18 @@ newgrp docker
  docker push repository/app:tag
 ```
 
+## Linking 
+```
+#run redis container
+    docker run --name some-redis -d redis
+
+    #run rabbitmq container
+    docker run -d --hostname my-rabbit --name some-rabbit rabbitmq
+
+    #run webapps container
+    docker run --name webapps -p 8080:80 --link some-redis:redis --link some-rabbit:rabbitmq nimmis/apache-php7
+```
+
 ## Network
 ```
 docker network ls
