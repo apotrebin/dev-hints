@@ -1,7 +1,7 @@
 
 > ### Some+time(s)
 
-|target|englsih example|russian translation|
+|target|englsih|translation|
 | ---------------- | ---------------- |---------------- |
 |sometime|**Sometime** I will live in Canada|**Однажды** я буду жить в Канаде|
 |sometime**S** | I brush my teeth **sometimes** a day | Я чищу свои зубы **несколько раз** в день|
