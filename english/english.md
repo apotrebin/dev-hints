@@ -1,5 +1,5 @@
 
-## Some+time(s)
+> ### Some+time(s)
 
 |target|englsih example|russian translation|
 | ---------------- | ---------------- |---------------- |
@@ -10,63 +10,77 @@
 
 ----
 
-## Either/Neither
+> ### Either/Neither
+
 |target|englsih example|russian translation|
 | ---------------- | ---------------- |---------------- |
 |either|She doesn't smoke either| Она тоже не курит|
 |neither|She smokes neither|Она тоже не курит|
+----
 
-## +ING
+> ## +ING (all possible cases where "ing" uses)
+
 #### 1. GERUND
 Drinking - питье <br/>
 Reading - чтение <br/>
 Sweeming - плавание
-#### 2. Continuous  
+**examle:** I like skiing
+#### 2. Present Continuous  
 Doing smth right now
+**examle:** I am writing this article right now
 #### 3. Characterization (характеристика)
 Sleeping - спящий <br/>
 Reading - читающий <br/>
-#### 4. Smth happens often
+**examle:** He is sleeping man
+#### 4. Smth that happens often
 ```
-Go**ing** to work I often drink coffee - **Идя** на работу я часто пью кофе
-Talking to my friends I often laugh - Разговаривая с моими друзьями я часто смеюсь
+Talking to my friends I often laugh  
 ```
+**examle:**  Going to work I often drink coffee - Идя на работу я часто пью
+кофе
+
 #### 5. Что сделав? (Having + VIII)
 ```
 Having bought a skis - купив лыжи ..
 Having read a book - прочитав книгу ..
 having talked to my freinds - поговорив с друзьями ..
 ```
+**examle:** Having written this education block I hoped I learn English better
+
 #### 6. Что делающий
 ```
 Man reading a newspaper is my father - Мужчина читающий газету - это мой отец
 Man playing perfect ping-pong is I :]
 ```
+**examle:** User reading this part of text is awesome :]
 
-## Passive Voice vs Active Voice
+----
+
+> ## Passive Voice vs Active Voice
+
 ```
  I am called - I call = мне звонят - я звоню
  I am not called - мне не звонят
  Am I called ? - мне звонят ?
- 
+
  I was called - мне позвонили
  I wasn't called - мне не позвонили
  Was I called ? - мне позвонят ?
- 
+
  I will called - мне позвонят
  I won't be called - мне не позвонят
- Will I called ? - мне позвонят? 
+ Will I called ? - мне позвонят?
 ---------------------------------------------------------
  She is helped - She helps = ей помогают - она помогает
  She is not helped - ей не помогают
  Is she helped ? - ей помогают ?
- 
- She was helped  - ей помогли 
+
+ She was helped  - ей помогли
  She wasn't helped - ей не помогали
  Was she helped ? - ей помогли ?
- 
- She will helped - ей помогут 
- She won't be helped - ей не помогут 
+
+ She will helped - ей помогут
+ She won't be helped - ей не помогут
  Will she helped ? - ей помогут ?
 
 ```
