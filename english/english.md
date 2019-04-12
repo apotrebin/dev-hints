@@ -21,16 +21,20 @@
 > ## +ING (all possible cases where "ing" uses)
 
 #### 1. GERUND
-Drinking - питье <br/>
-Reading - чтение <br/>
-Sweeming - плавание
+```
+Drinking - питье  
+Reading - чтение  
+Sweeming - плавание 
+```
 **examle:** I like skiing
 #### 2. Present Continuous  
 Doing smth right now
 **examle:** I am writing this article right now
 #### 3. Characterization (характеристика)
-Sleeping - спящий <br/>
-Reading - читающий <br/>
+```
+Sleeping - спящий  
+Reading - читающий  
+```
 **examle:** He is sleeping man
 #### 4. Smth that happens often
 ```
