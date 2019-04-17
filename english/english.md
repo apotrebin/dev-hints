@@ -93,3 +93,11 @@ Man playing perfect ping-pong is I :]
 #### 7. «До сих пор» и «уже не»
 * I don't eat much sweet anymore - Я уже не ем много сладкого
 * I ride a bike still - Я до сих пор катаюсь на велосипеде
+---------------------------------------------------------
+#### 8. Вопросы к подлежащему.
+* Who saw you? Кто видел тебя?
+* Who did Ann see? Кто видел Аню?
+* Who saw me? Кто меня видел ? (без вспомог. гл. did)
+* Who lives in that house ? Кто живет в том доме ? 
+* Who saw Tom? Кто видел Тома?
+* She saw Tom - Она видела Тома
