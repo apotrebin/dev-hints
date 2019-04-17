@@ -24,7 +24,7 @@
 ```
 Drinking - питье  
 Reading - чтение  
-Sweeming - плавание 
+Sweeming - плавание
 ```
 **examle:** I like skiing
 #### 2. Present Continuous  
@@ -88,3 +88,8 @@ Man playing perfect ping-pong is I :]
  Will she helped ? - ей помогут ?
 
 ```
+
+---------------------------------------------------------
+#### 7. «До сих пор» и «уже не»
+* I don't eat much sweet anymore - Я уже не ем много сладкого
+* I ride a bike still - Я до сих пор катаюсь на велосипеде
