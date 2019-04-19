@@ -98,6 +98,7 @@ Man playing perfect ping-pong is I :]
 * Who saw you? Кто видел тебя?
 * Who did Ann see? Кто видел Аню?
 * Who saw me? Кто меня видел ? (без вспомог. гл. did)
-* Who lives in that house ? Кто живет в том доме ? 
+* Who lives in that house ? Кто живет в том доме ?
 * Who saw Tom? Кто видел Тома?
 * She saw Tom - Она видела Тома
+---------------------------------------------------------
