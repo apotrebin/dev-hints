@@ -27,6 +27,26 @@ newgrp docker
 - ```docker rm containerId```
 - ```docker rmi imageId```
 
+## Volume
+```
+docker volume create VOLUME_NAME    - (creates volume in /var/lib/docker/volumes)
+docker volume rm VOLUME_NAME        - actually you can remove several volumes
+docker volume inspect VOLUME_NAME   - detailed info about volume(s)
+docker volume ls - list of volumes
+
+
+docker run -v VOLUME_NAME:/containerdir IMAGE_NAME - using of created volume
+docker volume prune - it will remove from the system any volume not attached to a running or stopped container
+
+> Example 1:
+docker run -v /hostdir:/containerdir IMAGE_NAME - just linking
+> Example 2:
+docker volume create logdata
+docker run -it --name volume1 --mount type=volume,source=logdata,target=c:\logdata microsoft/windowsservercore powershell
+```
+## Most common commands
+* **docker stop $(docker ps -q)docker rm $(docker ps -a -q)** - stop and remove all the running containers
+
 ## Build / Exec
 ```
  docker build -t akram .
@@ -37,7 +57,7 @@ newgrp docker
  docker push repository/app:tag
 ```
 
-## Linking 
+## Linking
 ```
 #run redis container
     docker run --name some-redis -d redis
