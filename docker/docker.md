@@ -57,6 +57,12 @@ docker run -it --name volume1 --mount type=volume,source=logdata,target=c:\logda
  docker push repository/app:tag
 ```
 
+## Docker some kind of information about container
+```
+docker stats containerName - cpu, ram , pid, net i/o , block i/o
+docker logs containerName 
+```
+
 ## Linking
 ```
 #run redis container
