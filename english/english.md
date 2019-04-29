@@ -105,24 +105,28 @@ Man playing perfect ping-pong is I :]
 
 #### 8. Conditional Sentences
 > ZERO CONDITIONAL
+
 |if clause|main clause|explonation|
 | ---------------- | ---------------- |---------------- |
 |**If + Present Simple**|Present Simple| Some common things|
 |If you heat the water to 100 degress,|it boils|Если воду нагреть до 100 градусов - она закипит|
 
 > 1ST CONDITIONAL
+
 |if clause|main clause|explonation|
 | ---------------- | ---------------- |---------------- |
 |**If + Present Simple**|Future Simple, can, may| Some possibilities|
 |If you study hard,|you will pass the test|Если будешь усердно учиться, то ты пройдешь тест|
 
 > 2ND CONDITIONAL
+
 |if clause|main clause|explonation|
 | ---------------- | ---------------- |---------------- |
 |**If + Past Simple**|would, could, might| unreal case or situation|
 |If I had a million dollars,|I would buy a big house|Если бы у меня был миллион баксов я бы купил дом|
 
 > 3RD CONDITIONAL
+
 |if clause|main clause|explonation|
 | ---------------- | ---------------- |---------------- |
 |**If + Past Perfect**|would/could/might + have + Past Participle| Unreal case or situation in the past|
