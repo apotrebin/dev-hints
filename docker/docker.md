@@ -97,6 +97,12 @@ EXPOSE|Ports the container will listen on
 VOLUME|Creates a mount point
 USER|User to run RUN, CMD, and/or ENTRYPOINT instructions
 
+## Common 
+```
+ENTRYPOINT указывает команду, которая всегда будет выполняться при запуске контейнера.
+CMD указывает аргументы, которые будут переданы в ENTRYPOINT
+```
+
 ## Docker Hub
 - ```docker login```
 - ```docker logout```
