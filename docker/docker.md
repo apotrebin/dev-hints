@@ -78,6 +78,14 @@ docker logs containerName
 ## Network
 ```
 docker network ls
+docker network inspect 
+docker network create --driver my-bridge-network
+or
+docker network create -d bridge my-bridge-network
+
+docker network connect [network-name] [container-name]
+docker network disconnect [network-name] [container-name]
+docker network rm [network-name]
 ```
 
 ## Dockerfile
