@@ -1,8 +1,13 @@
 
-sudo apt update && sudo apt dist-upgrade && sudo apt autoremove
+* sudo apt update && sudo apt dist-upgrade && sudo apt autoremove
 
 
 
 
-VirtualBox
+> VirtualBox
+
+```
+change VirtualBox settings to allow auto-installation from CD 
 sudo apt install virtualbox-guest-dkms linux-headers-virtual
+install guest cd 
+```
