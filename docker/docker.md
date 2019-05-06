@@ -24,6 +24,12 @@ newgrp docker
 ## Different cases
 ```
 docker rename [current-name] [new-name]
+docker container top - process list in one container
+docker container inspect - details of one container config
+docker container stats - preformance stats for all containers
+
+docker container run -it - start new container interactively 
+docker container exec -it - run additional command in existing container
 ```
 
 ## Stop / Remove
