@@ -21,6 +21,11 @@ newgrp docker
 - docker run selenium:latest - latest
 ```
 
+## Different cases
+```
+docker rename [current-name] [new-name]
+```
+
 ## Stop / Remove
 
 - ```docker stop containerId```
