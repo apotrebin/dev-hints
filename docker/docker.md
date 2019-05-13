@@ -30,6 +30,10 @@ docker container stats - preformance stats for all containers
 
 docker container run -it - start new container interactively 
 docker container exec -it - run additional command in existing container
+
+
+docker exec [container name] env  - get list of env for current container
+
 ```
 
 ## Stop / Remove
