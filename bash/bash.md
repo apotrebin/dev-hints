@@ -43,6 +43,7 @@ sort   – sorted output
 grep   - filtering 
 
 /dev/null   - устройство находящиеся в ж#$е
+
 ```
 
 ## ZIP
@@ -138,6 +139,7 @@ ping          - test connection
 host ts.kg    - get IP address of current host
 dig           - get IP address of current host
 netstat       – show connections
+fuser -k 3000/tcp - kill process on 3000 port
 ```
 
 ## Download | Install | Remove
