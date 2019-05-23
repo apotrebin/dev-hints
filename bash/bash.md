@@ -10,6 +10,7 @@ locate  – показывает где файл
 Ctrl+Z  - отправить процесс на background
 Ctrl+C  – прекратить процесс вообще
 printenv - list of environment variables
+
 ```
 
 ## Explorer
