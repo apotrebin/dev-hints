@@ -6,8 +6,6 @@ figure out - вычислять
 figure out something - выяснять что-либо
 figure out a solution - найти решение
 
-capacity - мощность, способность, производительность, объем
-
 fair enough - Спаведливо, Ладно, Хорошо!
 
 
@@ -15,6 +13,7 @@ fair enough - Спаведливо, Ладно, Хорошо!
 
 > Most used words
 ```
+capacity - мощность, способность, производительность, объем
 frustrated
 frustrating
 circumstance - обстоятельства
