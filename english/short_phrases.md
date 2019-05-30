@@ -1,6 +1,4 @@
 ```
-
-
 so far - до сих пор
 brand new - совершенно новый
 
@@ -11,4 +9,12 @@ figure out a solution - найти решение
 capacity - мощность, способность, производительность, объем
 
 
+```
+
+> Most used words
+```
+frustrated
+frustrating
+circumstance - обстоятельства
+represent - представлять, изображать, отражать
 ```
