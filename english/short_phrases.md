@@ -18,4 +18,5 @@ frustrated
 frustrating
 circumstance - обстоятельства
 represent - представлять, изображать, отражать
+satisfied - довольный, удовлетворенный
 ```
