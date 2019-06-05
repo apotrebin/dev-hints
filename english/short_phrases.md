@@ -8,6 +8,8 @@ figure out a solution - найти решение
 
 fair enough - Спаведливо, Ладно, Хорошо!
 
+by no means - ни в коем случае
+
 
 ```
 
