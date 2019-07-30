@@ -48,17 +48,26 @@ grep   - filtering
 
 ## ZIP
 ```
-tar cf  mytar.tar  Folder1   - pack Folder1
-tar xf mytar.tar             - unpack
+tar.gz
+tar -xzf testFile.tar.gz – unpack
+    -x, --extract, --get       extract files from an archive
+    -f, --file=ARCHIVE         use archive file or device ARCHIVE
+    -z, --gzip, --gunzip, --ungzip   filter the archive through gzip
+
+
+
+
+tar cf  mytar.tar  Folder1   – pack Folder1
+tar xf mytar.tar             – unpack
 gzip / bzip2 / xz            – pack  
 gunzip /  bunzip2 / unxz     – unpack
 
 tar cvzf myBZIP2.bz2  Folder2  – pack Folder2 to myBZIP2.bz2
-tar xvf  myBZIP2.bz2           - unpack myBZIP2.bz2
-tar tf myBZIP2.bz2             - show fiolders and files inside of myBZIP2.bz2 
+tar xvf  myBZIP2.bz2           – unpack myBZIP2.bz2
+tar tf myBZIP2.bz2             – show fiolders and files inside of myBZIP2.bz2 
 
-zip –r myZIP.zip Folder3       - pack Folder3 in myZIP.zip
-unzip myZIP.zip                - unpack file myZIP.zip
+zip –r myZIP.zip Folder3       – pack Folder3 in myZIP.zip
+unzip myZIP.zip                – unpack file myZIP.zip
 ```
 
 ## Processes
