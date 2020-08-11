@@ -3,9 +3,9 @@
 
 ## Useful commands
 ```
-stop all container - docker kill $(docker ps -q).
-remove all stoped containers - docker rm $(docker ps -a -q).
-remove all images - docker rmi $(docker images -q).
+stop all container - docker kill $(docker ps -q)
+remove all stoped containers - docker rm $(docker ps -a -q)
+remove all images - docker rmi $(docker images -q)
 ```
 
 ## Use docker without sudo
