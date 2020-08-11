@@ -3,9 +3,10 @@
 
 ## Useful commands
 ```
-stop all container - docker kill $(docker ps -q)
-remove all stoped containers - docker rm $(docker ps -a -q)
-remove all images - docker rmi $(docker images -q)
+stop all runing containes     - docker stop $(docker ps -q)
+kill all containers           - docker kill $(docker ps -q)
+remove all stoped containers  - docker rm $(docker ps -a -q)
+remove all images             - docker rmi $(docker images -q)
 ```
 
 ## Use docker without sudo
@@ -31,34 +32,37 @@ newgrp docker
 ## Different cases
 ```
 docker rename [current-name] [new-name]
-docker container top - process list in one container
-docker container inspect - details of one container config
-docker container stats - preformance stats for all containers
-
-docker container run -it - start new container interactively 
-docker container exec -it - run additional command in existing container
-
-
-docker exec [container name] env  - get list of env for current container
+docker container top                     - process list in one container
+docker container inspect                 - details of one container config
+docker container stats                   - preformance stats for all containers
+docker container run -it                 - start new container interactively 
+docker container exec -it                - run additional command in existing container
+docker exec [container name] env         - get list of env for current container
 
 ```
 
 ## Stop / Remove
-
+ 
 - ```docker stop containerId```
 - ```docker rm containerId```
 - ```docker rmi imageId```
 
+- ```docker volume prune``` - remove all volumes not attached to a running or stopped container
+
+- ```docker network rm [network-name]```
+
+
+
 ## Volume
 ```
-docker volume create VOLUME_NAME    - (creates volume in /var/lib/docker/volumes)
-docker volume rm VOLUME_NAME        - actually you can remove several volumes
+docker volume create VOLUME_NAME    - creates volume in /var/lib/docker/volumes
+docker volume rm VOLUME_NAME        - remove volume(s)
 docker volume inspect VOLUME_NAME   - detailed info about volume(s)
-docker volume ls - list of volumes
+docker volume ls                    - list of volumes
 
 
 docker run -v VOLUME_NAME:/containerdir IMAGE_NAME - using of created volume
-docker volume prune - it will remove from the system any volume not attached to a running or stopped container
+
 
 > Example 1:
 docker run -v /hostdir:/containerdir IMAGE_NAME - just linking
@@ -66,8 +70,7 @@ docker run -v /hostdir:/containerdir IMAGE_NAME - just linking
 docker volume create logdata
 docker run -it --name volume1 --mount type=volume,source=logdata,target=c:\logdata microsoft/windowsservercore powershell
 ```
-## Most common commands
-* **docker stop $(docker ps -q)docker rm $(docker ps -a -q)** - stop and remove all the running containers
+
 
 ## Build / Exec
 ```
@@ -79,11 +82,6 @@ docker run -it --name volume1 --mount type=volume,source=logdata,target=c:\logda
  docker push repository/app:tag
 ```
 
-## Docker some kind of information about container
-```
-docker stats containerName - cpu, ram , pid, net i/o , block i/o
-docker logs containerName 
-```
 
 ## Linking
 ```
@@ -93,8 +91,8 @@ docker logs containerName
     #run rabbitmq container
     docker run -d --hostname my-rabbit --name some-rabbit rabbitmq
 
-    #run webapps container
-    docker run --name webapps -p 8080:80 --link some-redis:redis --link some-rabbit:rabbitmq nimmis/apache-php7
+    #run webapp container
+    docker run --name webapp -p 8080:80 --link some-redis:redis --link some-rabbit:rabbitmq nimmis/apache-php7
 ```
 
 ## Network
@@ -102,12 +100,8 @@ docker logs containerName
 docker network ls
 docker network inspect 
 docker network create --driver my-bridge-network
-or
-docker network create -d bridge my-bridge-network
-
 docker network connect [network-name] [container-name]
 docker network disconnect [network-name] [container-name]
-docker network rm [network-name]
 ```
 
 ## Dockerfile
