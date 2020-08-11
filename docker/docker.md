@@ -1,6 +1,13 @@
 ## Install Docker engine
 ...
 
+## Useful commands
+```
+stop all container - docker kill $(docker ps -q).
+remove all stoped containers - docker rm $(docker ps -a -q).
+remove all images - docker rmi $(docker images -q).
+```
+
 ## Use docker without sudo
 ```
 sudo groupadd docker
@@ -80,7 +87,7 @@ docker logs containerName
 
 ## Linking
 ```
-#run redis container
+# run redis container
     docker run --name some-redis -d redis
 
     #run rabbitmq container
