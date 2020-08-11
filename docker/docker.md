@@ -15,7 +15,7 @@ sudo groupadd docker
 sudo gpasswd -a $USER docker
 newgrp docker
 ```
-- ~~(sudo usermod -aG docker $USER)~~
+-  ```sudo usermod -aG docker $USER```
 
 ## Run / Check
 ```
@@ -66,6 +66,7 @@ docker run -v VOLUME_NAME:/containerdir IMAGE_NAME - using of created volume
 
 > Example 1:
 docker run -v /hostdir:/containerdir IMAGE_NAME - just linking
+
 > Example 2:
 docker volume create logdata
 docker run -it --name volume1 --mount type=volume,source=logdata,target=c:\logdata microsoft/windowsservercore powershell
