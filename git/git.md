@@ -9,9 +9,9 @@
 
 #### Before Pull/Merge Request
 ```
-git checkout develop
-git pull origin develop
+git checkout dev
+git pull origin dev
 git checkout <feature_branch>
-git rebase develop
+git rebase dev
 git push -f origin <feature_branch>
 ```
