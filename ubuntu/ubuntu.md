@@ -29,8 +29,8 @@ sudo apt-get clean
 ```
 
 #### Useful apps
-> https://github.com/oguzhaninan/Stacer - cleaner and system monitor
-> https://kdenlive.org - video editor
-> https://launchpad.net/~sylvain-pineau/+archive/ubuntu/kazam - screen recorder 
-> https://flameshot.js.org   https://github.com/flameshot-org/flameshot/releases - screenshoter
-> https://deluge-torrent.org - torrent client
+* https://github.com/oguzhaninan/Stacer - cleaner and system monitor
+* https://kdenlive.org - video editor
+* https://launchpad.net/~sylvain-pineau/+archive/ubuntu/kazam - screen recorder 
+* https://flameshot.js.org   https://github.com/flameshot-org/flameshot/releases - screenshoter
+* https://deluge-torrent.org - torrent client
