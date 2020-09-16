@@ -27,3 +27,6 @@ sudo apt-get autoremove --purge
 sudo du -sh /var/cache/apt
 sudo apt-get clean
 ```
+
+#### Useful apps
+https://github.com/oguzhaninan/Stacer - cleaner and system monitor 
