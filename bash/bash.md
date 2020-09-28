@@ -18,6 +18,7 @@ printenv - list of environment variables
 cd     - cd
 ls     – вывести содержимое директории
 ls -l  - вывести содержимое директории подробно
+ls -lh - вывести содержимое с указанием размера КВ а не в байтах 
 pwd    - path to current directory
 ~      - /home folder
 /      - root directory of Linux
