@@ -44,6 +44,8 @@ grep   - filtering
 
 /dev/null   - устройство находящиеся в ж#$е
 
+history -c - clear history
+
 ```
 
 ## ZIP
