@@ -25,7 +25,7 @@ newgrp docker
 - docker search jenkins
 - docker pull jenkins
 - docker run -it -p 8087:8080 jenkins
-- docker run -d -p 8087:80 jenkins
+- docker run -d -p [host port]:[container port] jenkins
 - docker run selenium:latest - latest
 ```
 
