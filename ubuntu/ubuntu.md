@@ -28,6 +28,11 @@ sudo du -sh /var/cache/apt
 sudo apt-get clean
 ```
 
+UI cleaner app
+sudo add-apt-repository ppa:gerardpuig/ppa
+sudo apt install ubuntu-cleaner
+
+
 #### Useful apps
 * https://github.com/oguzhaninan/Stacer - cleaner and system monitor
 * https://kdenlive.org - video editor
