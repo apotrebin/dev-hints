@@ -26,6 +26,9 @@ sudo apt-get autoremove --purge
 
 sudo du -sh /var/cache/apt
 sudo apt-get clean
+
+
+run script: sh removeOldSnaps.sh 
 ```
 
 UI cleaner app
